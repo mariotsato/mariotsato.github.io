@@ -2,7 +2,7 @@
 
 ---
 
-### Data Science Projects 
+### 1. Data Science Projects 
 
 [Deep Learning - Detection of LAI by Semantic Segmentation](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -25,7 +25,8 @@
 - [University of Tsukuba] Short term employment - OPERA project
 - [Data Camp] - Machine Learning, etc
 
-### Business Administration Projects
+---
+### 2. Business Administration Projects
 
 [Process Consulting - Global Link Consultoria](/sample_page)
 - Project in traditional Japanese restaurant located in São Paulo
@@ -56,10 +57,8 @@
   - was classified as one of the 5 best consultants (of total 20) of Junior Consulting Firm in its feedback system, in the 2nd bimester of work.
   - developed Artistic Coworking Business Plan with the business model, management & marketing, & operation plans.
 
-### Data Science Projects 
-
 ---
-[Language Skills]
+### 3. Language Skills 
 
 - Portuguese (BR) - Native
 - English - TOEFL Certificate
