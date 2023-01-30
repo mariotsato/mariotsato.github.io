@@ -12,8 +12,10 @@ Check the analysis in the pdf clicking on the image.
 <a href="pdf/assignment_2_Sato Mario.pdf" class="image fit"><img src="images/for_while.png" alt=""></a>
 
 ---
-[Deep Learning - Detection of LAI by Semantic Segmentation](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+#### Deep Learning - U-Net model applied to the rope detection
+A project carried on to apply the semantic segmentation to the rope detection.
+
+<a href="../unet_rope_detection/" class="image fit"><img src="images/unet.png" alt=""></a>
 
 ---
 [Deep Learning - Dog X Cat - Classification](/pdf/sample_presentation.pdf)
