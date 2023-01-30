@@ -4,7 +4,7 @@
 
 ### 1. Data Science Projects 
 
-- For and While loop comparison
+#### For and While loop comparison
 
 <a href="pdf/assignment_2_Sato Mario.pdf" class="image fit"><img src="images/for_while.png" alt=""></a>
 
