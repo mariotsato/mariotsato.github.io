@@ -5,7 +5,7 @@
 ### 1. Data Science Projects 
 
 #### For and While loop comparison
-Experiment conducted with statistical analysis of comparison between For and While loop.
+<a href="pdf/assignment_2_Sato Mario.pdf">Experiment</a> conducted with statistical analysis of comparison between For and While loop.
 Conclusion: For loop is relatively faster to do the counting rather than using while loops.
 Check the analysis in the pdf clicking on the image.
 
