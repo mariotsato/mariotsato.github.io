@@ -4,9 +4,10 @@
 
 ### 1. Data Science Projects 
 
-[For and While loop comparison](/sample_page)
+[For and While loop comparison]#(/sample_page)
 <a href="pdf/assignment_2_Sato Mario.pdf" class="image fit"><img src="images/for_while.png" alt=""></a>
 
+---
 [Deep Learning - Detection of LAI by Semantic Segmentation](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
