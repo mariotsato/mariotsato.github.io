@@ -5,7 +5,7 @@
 ### 1. Data Science Projects 
 
 [For and While loop comparison](/sample_page)
-<pdf src="mariotsato.github.io/pdf/assignment_2_Sato Mario.pdf"/>
+<a href="pdf/assignment_2_Sato Mario.pdf" class="image fit"><img src="images/for_while.png" alt=""></a>
 
 [Deep Learning - Detection of LAI by Semantic Segmentation](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -24,9 +24,9 @@
 
 ---
 [Experiences]
-- [University of Tsukuba] Teaching Assistant - Introduction to Programming
-- [University of Tsukuba] Short term employment - OPERA project
-- [Data Camp] - Machine Learning, etc
+- [University of Tsukuba] Teaching Assistant - Introduction to Information Science
+- [University of Tsukuba] Teaching Assistant - Introduction to Programming using Python
+- [University of Tsukuba] Research Assistant - OPERA project: LAI Index estimation using deep learning and image processing
 
 ---
 ### 2. Business Administration Projects
