@@ -13,7 +13,7 @@ Check the analysis in the pdf clicking on the image.
 
 ---
 #### Deep Learning - U-Net model applied to the rope detection
-A project carried on to apply the semantic segmentation to the rope detection.
+A <a href="https://github.com/mariotsato/unet_rope_detection"project</a> carried on to apply the semantic segmentation to the rope detection.
 
 <a href="https://github.com/mariotsato/unet_rope_detection" class="image fit"><img src="images/unet.png" alt=""></a>
 
