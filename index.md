@@ -1,5 +1,5 @@
 ## Portfolio:
-My current CV:
+My current:
 <a href="pdf/SatoMario_CV_2023.pdf">Experiment</a>
 ---
 
