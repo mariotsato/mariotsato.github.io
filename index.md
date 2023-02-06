@@ -1,7 +1,7 @@
 ## Portfolio:
-My current:
-<a href="pdf/SatoMario_CV_2023.pdf">Experiment</a>
----
+My current
+<a href="pdf/SatoMario_CV_2023.pdf">CV</a>
+
 
 ### 1. Data Science Projects 
 
