@@ -26,15 +26,15 @@ Check the analysis in the pdf clicking on the image.
 
 ---
 [Deep Learning - Dog X Cat - Classification](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+#<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Deep Learning - MNIST classification](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+#<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Machine Learning - Hire or Not](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+#<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Experiences]
