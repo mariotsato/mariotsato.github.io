@@ -1,7 +1,7 @@
 ## Portfolio:
 My current
 <a href="pdf/SatoMario_CV_2023.pdf">CV</a>
-
+---
 
 ## PROJECTS: 
 ---
@@ -11,7 +11,7 @@ Click <a href="https://mariotsato-yolov8-object-detection-streamlit-app-9gw2rr.s
 This is a project of object detection using YOLOv8 model with COCO dataset deployed in streamlit.
 <a href="https://github.com/mariotsato/YOLOv8_object_detection_streamlit" class="image fit"><img src="images/obj_detection.png" alt=""></a>
 
-
+---
 #### Deep Learning - U-Net model applied to the rope detection
 A <a href="https://github.com/mariotsato/unet_rope_detection">project</a> carried on to apply the semantic segmentation to the rope detection.
 
@@ -27,15 +27,12 @@ Check the analysis in the pdf clicking on the image.
 
 ---
 [Deep Learning - Dog X Cat - Classification](/pdf/sample_presentation.pdf)
-#<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Deep Learning - MNIST classification](http://example.com/)
-#<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Machine Learning - Hire or Not](http://example.com/)
-#<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Experiences]
