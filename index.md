@@ -5,14 +5,15 @@ My current
 ---
 
 #### **2023:** Deploy your Object Detection app in Streamlit using YOLOv8 model (COCO dataset) 
-Github: <a href="https://mariotsato-yolov8-object-detection-streamlit-app-9gw2rr.streamlit.app/"> to check the demo of object detection.
+Github: <a href="https://github.com/mariotsato/YOLOv8_object_detection_streamlit/">HERE</a> 
+DEMO in Streamlit: <a href="https://mariotsato-yolov8-object-detection-streamlit-app-9gw2rr.streamlit.app/">HERE</a>
 This is a project of object detection using YOLOv8 model with COCO dataset deployed in streamlit.
 <a href="https://github.com/mariotsato/YOLOv8_object_detection_streamlit" class="image fit"><img src="images/obj_detection.png" alt=""></a>
 
 ---
 #### **2022:** Deep Learning - U-Net model applied to the rope detection
-A <a href="https://github.com/mariotsato/unet_rope_detection">project</a> carried on to apply the semantic segmentation to the rope detection.
-
+A project carried on to apply the semantic segmentation to the rope detection.
+Github: <a href="https://github.com/mariotsato/unet_rope_detection">HERE</a>
 <a href="https://github.com/mariotsato/unet_rope_detection" class="image fit"><img src="images/unet.png" alt=""></a>
 
 ---
