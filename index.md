@@ -1,7 +1,7 @@
 My current
 <a href="pdf/SatoMario_CV_2023.pdf">CV</a>
 
-## PROJECTS: 
+## Computer Science related Projects: 
 ---
 
 #### **2023:** Deploy your Object Detection app in Streamlit using YOLOv8 model (COCO dataset) 
@@ -39,10 +39,8 @@ Check the analysis in the pdf clicking on the image.
 - [University of Tsukuba] **2022, 2023:** Research Assistant - OPERA project: LAI Index estimation using deep learning and image processing
 
 ---
-### 2. Business Administration Projects
+## Business related Projects
 
----
-### 3. Language Skills 
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
