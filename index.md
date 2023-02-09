@@ -12,8 +12,8 @@ This is a project of object detection using YOLOv8 model with COCO dataset deplo
 
 ---
 #### **2022:** Deep Learning - U-Net model applied to the rope detection
-A project carried on to apply the semantic segmentation to the rope detection.<br>
 Github: <a href="https://github.com/mariotsato/unet_rope_detection">HERE</a><br>
+A project carried on to apply the semantic segmentation to the rope detection.<br>
 <a href="https://github.com/mariotsato/unet_rope_detection" class="image fit"><img src="images/unet.png" alt=""></a><br>
 
 ---
