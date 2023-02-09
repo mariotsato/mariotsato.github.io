@@ -27,9 +27,9 @@ Check the analysis in the pdf clicking on the image.<br>
 
 ---
 [Experiences]
+- [University of Tsukuba] **2022, 2023:** Research Assistant - OPERA project: LAI Index estimation using deep learning and image processing
 - [University of Tsukuba] **2022, 2023:** Teaching Assistant - Introduction to Information Science
 - [University of Tsukuba] **2022:** Teaching Assistant - Introduction to Programming using Python
-- [University of Tsukuba] **2022, 2023:** Research Assistant - OPERA project: LAI Index estimation using deep learning and image processing
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
