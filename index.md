@@ -18,7 +18,8 @@ A project carried on to apply the semantic segmentation to the rope detection.<b
 
 ---
 #### **2022:** For and While loop comparison
-<a href="pdf/assignment_2_Sato Mario.pdf">Experiment</a> conducted with statistical analysis of comparison between For and While loop.<br>
+PDF: <a href="pdf/assignment_2_Sato Mario.pdf">HERE</a><br>
+An experiment conducted with statistical analysis of comparison between For and While loop.<br>
 Conclusion: For loop is relatively faster to do the counting rather than using while loops.<br>
 Check the analysis in the pdf clicking on the image.<br>
 
