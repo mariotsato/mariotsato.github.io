@@ -3,7 +3,12 @@ My current
 <a href="pdf/SatoMario_CV_2023.pdf">CV</a>
 
 
-### 1. Data Science Projects 
+## PROJECTS: 
+
+#### Deploy your Object Detection app in Streamlit using YOLOv8 model (COCO dataset) 
+Click <a href="https://mariotsato-yolov8-object-detection-streamlit-app-9gw2rr.streamlit.app/">here</a> to check the demo of object detection.
+This is a project of object detection using YOLOv8 model with COCO dataset deployed in streamlit.
+<a href="https://github.com/mariotsato/YOLOv8_object_detection_streamlit" class="image fit"><img src="images/obj_detection.png" alt=""></a>
 
 
 #### Deep Learning - U-Net model applied to the rope detection
