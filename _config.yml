@@ -1,7 +1,7 @@
-logo: "/images/nanapi.jpeg?raw=true" # your photo (or logo) here
-title: Mario Sato # your name (or website title) here
+logo: "/images/nanapi.jpeg?raw=true" <br><br> #photo
+title: Mario Sato # your name 
 description: > # your text below (remove <br> elements if you don't need line breaks)
-
+  <br><br>
   English/Japanese/Portuguese(BR)
   <br><br>
   Graduate Student in Computer Science
