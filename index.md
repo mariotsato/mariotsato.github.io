@@ -24,15 +24,6 @@ Check the analysis in the pdf clicking on the image.
 <a href="pdf/assignment_2_Sato Mario.pdf" class="image fit"><img src="images/for_while.png" alt=""></a>
 
 ---
-[Deep Learning - Dog X Cat - Classification](/pdf/sample_presentation.pdf)
-
----
-[Deep Learning - MNIST classification](http://example.com/)
-
----
-[Machine Learning - Hire or Not](http://example.com/)
-
----
 [Experiences]
 - [University of Tsukuba] **2022, 2023:** Teaching Assistant - Introduction to Information Science
 - [University of Tsukuba] **2022:** Teaching Assistant - Introduction to Programming using Python
