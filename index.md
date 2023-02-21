@@ -26,7 +26,7 @@ Check the analysis in the pdf clicking on the image.<br>
 <a href="pdf/assignment_2_Sato Mario.pdf" class="image fit"><img src="images/for_while.png" alt=""></a>
 
 ---
-[Experiences]
+## Experiences
 - [University of Tsukuba] **2022, 2023:** Research Assistant - OPERA project: LAI Index estimation using deep learning and image processing
 - [University of Tsukuba] **2022, 2023:** Teaching Assistant - Introduction to Information Science
 - [University of Tsukuba] **2022:** Teaching Assistant - Introduction to Programming using Python
