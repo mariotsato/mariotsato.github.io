@@ -11,6 +11,12 @@ This is a project of object detection using YOLOv8 model with COCO dataset deplo
 <a href="https://github.com/mariotsato/YOLOv8_object_detection_streamlit" class="image fit"><img src="images/obj_detection.png" alt=""></a><br>
 
 ---
+#### **2023:** Deep Learning - Cat and Dog classification with pre-trained Resnet50
+Github: <a href="https://github.com/mariotsato/cat_dog_classification_resnet50">HERE</a><br>
+Cat and Dog classification using Jupyter Notebook (ipynb) with pre-trained Resnet50.<br>
+<a href="https://github.com/mariotsato/cat_dog_classification_resnet50" class="image fit"><img src="images/dog.png" alt=""></a><br>
+
+---
 #### **2022:** Deep Learning - U-Net model applied to the rope detection
 Github: <a href="https://github.com/mariotsato/unet_rope_detection">HERE</a><br>
 A project carried on to apply the semantic segmentation to the rope detection.<br>
