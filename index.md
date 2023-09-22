@@ -1,6 +1,19 @@
 My current
 <a href="pdf/SatoMario_CV_2023.pdf">CV</a>
 
+## Blog: 
+---
+
+#### **2023:** What is Data Leakage in Machine Learning (Time series data) 
+In this blog, I will explain about what is Data Leakage in Time series data, how it can happen and how you can avoid this to happening in your machine learning model.
+Data leakage happens in the moment of feature engineering. It consists of the introduction to the feature of the information that is not available in the moment of prediction.
+For example, let's say that you want to predict if the price of a stock will go up or down. Then, you select one specific feature that contains the information of the date x+10. However, your label reflects the result of increase or decrease in the stock value of date x+5. Then you are using an information of the future that in the moment of prediction, it will not be available to you. In other words, in this case, you are including an information to the feature that you are trying to predict.
+Some of the best practices to avoid data leakage are the followings:
+- Split the data to train and test subsets before any type of preprocessing steps.
+- Use the technique of Purging and Embargo to avoid mixing the training and testing dataset information. In other words, even if you separate the dataset to two parts, always include an 'cussion' of data that will not be used between the training and testing datasets.
+
+  continues...
+
 ## Computer Science related Projects: 
 ---
 
