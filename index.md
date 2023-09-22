@@ -5,7 +5,25 @@ My current
 ---
 
 ---
-#### **2023/09:** ...
+#### **2023/09:** Difference of Supervised and Unsupervised ML models.
+
+---
+#### **2023/09:** Avoiding Overfitting in your ML model.
+
+---
+#### **2023/09:** Dealing with imbalanced data to train the model.
+
+---
+#### **2023/09:** Experiment Design in CS.
+
+---
+#### **2023/09:** Changing the OS system from Mac to Linux.
+
+---
+#### **2023/09:** Using XGBoost with hyperparameter optimized with Optuna.
+
+---
+#### **2023/09:** Why using a Random Forest classification model is better than using another model in some cases.
 
 ---
 #### **2023/09:** Participating in the conference in Japan for the first time in my life.
@@ -44,7 +62,7 @@ My current
 #### **2023/09:** Experience of living as Data Scientist in Japan
 
 ---
-#### **2023/09:** Introduction to Programming.
+#### **2023/09:** Introduction to Programming / Learning coding with Datacamp / Is it effective?
 
 ---
 #### **2023/09:** CoAtNet (2021) - Overview.
