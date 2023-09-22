@@ -4,7 +4,82 @@ My current
 ## Blog: 
 ---
 
-#### **2023:** What is Data Leakage in Machine Learning (Time series data) 
+---
+#### **2023/09:** ...
+
+---
+#### **2023/09:** Participating in the conference in Japan for the first time in my life.
+
+---
+#### **2023/09:** Dealing with anxiety in adult life.
+
+---
+#### **2023/09:** Changing the career path at 25 y.o.
+
+---
+#### **2023/09:** Difference between the course of Business Administration and Computer Science.
+
+---
+#### **2023/09:** Conducting a Master's research in Japan.
+
+---
+#### **2023/09:** Taking a driver license in Japan.
+
+---
+#### **2023/09:** Summary of Internship application in Japan in computer science field job.
+
+---
+#### **2023/09:** U-Net model for semantic segmentation.
+
+---
+#### **2023/09:** First steps for using github to your personal and professional projects.
+
+---
+#### **2023/09:** Basic GUI for Python.
+
+---
+#### **2023/09:** ConvNext (2020) - Overview.
+
+---
+#### **2023/09:** Experience of living as Data Scientist in Japan
+
+---
+#### **2023/09:** Introduction to Programming.
+
+---
+#### **2023/09:** CoAtNet (2021) - Overview.
+
+---
+#### **2023/09:** DenseNet (2016) - Overview.
+
+---
+#### **2023/09:** Dealing with Computer Vision projects X Financial predictive model.
+
+---
+#### **2023/09:** How to deal with OHLC data in pandas (python).
+
+---
+#### **2023/09:** Forex trade market: The overview.
+
+---
+#### **2023/09:** The importance of using the Raise Exception().
+
+---
+#### **2023/09:** The effects of Sprint and Scrum project management in the teamwork.
+
+---
+#### **2023/09:** How to make a basic predictive model.
+
+---
+#### **2023/09:** The importance of using the Raise Exception().
+
+
+---
+#### **2023/09:** Why do we need to separate the dataset for training, validation, and testing subsets?
+
+
+---
+#### **2023/09:** What is Data Leakage in Machine Learning (Time series data) 
 In this blog, I will explain about what is Data Leakage in Time series data, how it can happen and how you can avoid this to happening in your machine learning model.
 Data leakage happens in the moment of feature engineering. It consists of the introduction to the feature of the information that is not available in the moment of prediction.
 For example, let's say that you want to predict if the price of a stock will go up or down. Then, you select one specific feature that contains the information of the date x+10. However, your label reflects the result of increase or decrease in the stock value of date x+5. Then you are using an information of the future that in the moment of prediction, it will not be available to you. In other words, in this case, you are including an information to the feature that you are trying to predict.
