@@ -4,6 +4,10 @@ My current
 ## Blog: 
 ---
 
+
+---
+#### **2023/09:** Why do you need a buffer in your time series data.
+
 ---
 #### **2023/09:** Difference of Supervised and Unsupervised ML models.
 
