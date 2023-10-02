@@ -7,6 +7,15 @@ My current
 
 ---
 #### **2023/09:** Why do you need a buffer in your time series data.
+Time series data buffer consists of the initial part and the final part of the source data that will be used to train a model. 
+**Example:** |------|------------------------------|------|
+        t0      t1   (features and labels)     t2    t3
+        
+The period of t0~t1 is the initial part, and the period of t2~t3 is the final part.
+Buffer is necessary to be considered when the model utilizes the features and labels that is calculated using the past and future information.
+For example, you can use a 180 minutes return as one of the features. However, in the very first rows of this features, the values will be NaN because you do not have a previous 180 min data.
+The buffer offers that information to make the model be able to use this information. Also, the same thing applies to the label. If you are using information such as return with 180 min lookahead data, then you are considering the future data. Which is only possible because you have a final part buffer in the dataset.
+
 
 ---
 #### **2023/09:** Difference of Supervised and Unsupervised ML models.
