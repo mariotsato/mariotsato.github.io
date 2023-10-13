@@ -85,8 +85,30 @@ The buffer offers that information to make the model be able to use this informa
 ---
 #### **2023/09:** CoAtNet (2021) - Overview.
 
+- CoAtNet (Context-aware Attention Network) is a deep learning architecture, which addresses the task of object detection in images by incorporating a context-aware attention mechanism. This mechanism enables the model to focus on relevant image regions while considering contextual information, facilitating a better understanding of object relationships within their surroundings.
+- Inspired by the Vision Transformer (ViT), CoAtNet adopts a patch-based architecture. It divides the input image into smaller patches and processes them individually. This patch-based approach allows the model to capture local details while maintaining a global understanding of the image, resulting in improved performance.
+- CoAtNet combines the strengths of convolutional neural networks (CNNs) and self-attention mechanisms in a hybrid architecture. CNNs are used for local feature extraction from image patches, while self-attention mechanisms capture global contextual dependencies. This hybrid design achieves a balance between local and global information, enhancing the model's capabilities.
+- In terms of performance, CoAtNet has shown promising results in object detection tasks. It has outperformed previous state-of-the-art models on benchmark datasets like COCO (Common Objects in Context), demonstrating improved accuracy. The model's ability to capture contextual information and leverage attention mechanisms contributes to its superior performance.
+- CoAtNet also offers various model variants, including CoAtNet-Small, etc. These variants come with different depths and computational requirements, providing flexibility in terms of model size and efficiency. Users can choose the variant that suits their specific requirements.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9b444b7a-f06e-4586-ac12-ff1fb642db87/Untitled.png)
+
+Source: https://paperswithcode.com/paper/coatnet-marrying-convolution-and-attention
+
 ---
 #### **2023/09:** DenseNet (2016) - Overview.
+
+- The DenseNet model is a convolutional network model that aims to address the vanishing gradient problem and improves the information flow between the layers in the model.
+- It uses the skip connection, and dense connections by connecting the outputs of all the preceding layers to the input of subsequent layer, allowing the model to have an efficient feature reuse of information filtered by the previous layer.
+- The difference between the DenseNet model with the ResNet model is that the former considers the dense connections that allows the connectivity of the previous layers with the subsequent layers, while the latter connects just the previous layer’s output with the subsequent’s input, without the connections with all other layers.
+- Identity mapping is the direct propagation of the information without any alteration (**F(x) + x**), which is not used in the DenseNet but in ResNet.
+- Residual mapping focuses on learning the difference between the input and desired output (also not used in the DenseNet).
+- DenseNet optimizes parameterization by using feature concatenation instead of feature summation. This allows the network to have fewer parameters compared to traditional architectures, as the features from all preceding layers are concatenated and passed on to subsequent layers.
+- Bottleneck Layer: Before the 3x3 convolution layer, the model proposes the 1x1 convolution, which reduces the number of the channels of features before the 3x3 convolution, reducing the computational complexity. In this process, the compression factor is used to determine the number of resultant feature (e.g. if 0.5, output is the half of input).
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34b5dbd5-d93f-42f8-b461-f8e55bc6874a/Untitled.png)
+
+Source: https://github.com/liuzhuang13/DenseNet
 
 ---
 #### **2023/09:** Dealing with Computer Vision projects X Financial predictive model.
