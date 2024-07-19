@@ -4,6 +4,23 @@ My current
 ## Blog: 
 
 ---
+#### **2024/07** Inception v1 module
+The first idea of the Inception model was to apply different kernel sizes to the original pixels to capture different features and learn it.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/330c161f-cdcc-413c-8dcc-549a2d1dbef8">
+
+Inception v1 module optimized: 
+Then, they tried to reduce the computational cost by adding the 1x1 layer which enables to reduce the number of dimensions before it is used as inputs to the model. This technique can potentially reduce the convergence time.
+<img width="696" alt="image" src="https://github.com/user-attachments/assets/4d41fcdd-76ba-4be4-a96b-07f50c3f9b11">
+
+---
+#### **Xception model**
+The Xception model came to apply a different logic that was used in Inception.
+It replaces these complex Inception modules with depthwise separable convolutions, which factorize a standard convolution into a depthwise convolution (applies a single filter per input channel) followed by a pointwise convolution (applies a 1x1 convolution to combine the outputs of the depthwise convolution). 
+This reduces the number of parameters and computational cost.
+
+![image](https://github.com/user-attachments/assets/1de7d0aa-8ec4-4d69-9a8e-198f32f753e9)
+
+---
 #### **2024/07** Global Average Pooling
 Currently, instead of using the Dense layer in the final layer of the CNN architecture, one of the most used techniques is the Global Average Pooling.
 This technique consists of taking the average of the channels and reducing the number of parameters significantly.
