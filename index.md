@@ -5,7 +5,84 @@ My current
 ---
 
 ---
+#### **2024/07** Global Average Pooling
+
+
+---
+#### **2024/07** Vim tutorial
+Play: https://vim-adventures.com/
+
+---
+#### **2024/07:** Resnet: pre-activation
+The ResNet addressed the issue of vanishing gradient problem by introducing residual learning.
+Instead of learning a direct mapping from the input to the output, ResNet learns the residual, or difference, between the input and the output.
+This is implemented using skip connections, which allow the input to bypass one or more layers and be added directly to the output. 
+This helps in preserving the gradient and allowing the training of much deeper networks.
+
+Now, the ResNet with Full Pre-Activation has performed better in terms of error reduction compared to the classical ResNet.
+One of the biggest change the ResNet with Full Pre-Activation brought to the AI community is the reordering of the residual block.
+Before, the order of residual block consisted of the following order: Convolution layer, Batch Normalization, and Activation Function.
+This approach is often referred to as "pre-activation" because the activations are applied before the convolutions.
+With the implementation of the Resnet, it was set the order: Batch Normalization, Activation Function, and Convolution.
+This structure has been found to improve training and generalization in very deep networks.
+
+---
+#### **2024/07** N-Beats
+(Boris et al., 2019)
+
+N-beats: NEURAL BASIS EXPANSION ANALYSIS FOR INTERPRETABLE TIME SERIES FORECASTING
+
+- Key principles of the model:
+    - The model should be simple and generic, yet deep.
+    - The model should not be designed with the assumption that the input data needs to be scaled or normalized in a way that is unique to time series data. Also, the model should be robust to the scale of the input data, in other words, it shouldn't require the model inputs to be normalized or standardized.
+    - The model outputs should be interpretable to the humans.
+- Signal Decomposition:
+    - It is possible to extract useful information breaking down the model as the same way as trend and seasonality extraction approach.
+- Basic block:
+    - The order of the hierarchy of this model consists of the following sequence: Stacks → Blocks → Basic blocks.
+    - The first step of this process is the assignment of the time series data to the basic block. The data is passed through a 4 layers of the FC + ReLU and after divided into two parts. Each one is passed again through another FC getting to two outputs: Backcast and Forecast. The model learns not only to output the predictions in the form of forecast but also backcast.
+- Doubly residual stacking:
+    - The residual stacking is a technique that focuses on the difference (residuals) of the predicted values and actual values. This happens due to the fact that sometimes it is easier for the model to learn the residuals rather than the actual target values.
+    - Now, the double residuals stacking is a technique that doubles the stacking to make it more powerful.
+    - The first thing that happens is that the block predicts the difference between the best guess (backcast or forecast of the previous block) and actual values (meaning that the output is a vector that considers the aspects of the data not learned by the block 1). Then, the predictions of the residuals of the blocks are stacked together to form a new set of residuals. Next, the residual prediction is applied again, but this time, the model predicts the difference between the stacked residuals and actual values (in the Stack level). Finally, after the residual stacking, the final set of prediction is completed and it is combined to output the final predictions for the forecast.
+- Parallelism:
+    - The model is capable of making multi-horizon forecasts in parallel.
+    - In other words, it can simultaneously predict multiple future time steps, which is a significant advantage for real-world forecasting tasks.
+- Stacking and Loss Function:
+    - It describes the stacking of blocks and the choice of loss functions for training the model.
+    - Different block types are introduced for different types of time series forecasting problems, such as forecasting a single step ahead or multiple steps ahead.
+
+---
+#### **2024/07** N-Hits
+(Cristian et al., 2019)
+
+**N-HiTS: Neural Hierarchical Interpolation for Time Series Forecasting**
+
+- The N-HiTS model is a forecasting approach that extends the N-BEATS and aims to improve accuracy and computational efficiency, especially for long-horizon forecasting.
+- Followings are the main topics that this research explores:
+- Multi-Rate Signal Sampling:
+    - The multi-rate signal sampling consists of a technique to apply different kernel sizes to each block in the stack to concentrate on analyzing large scale (long periods), low-frequency content (low oscillation) to focus on long horizon forecasts.
+    - The first layer that the input passes through is the MaxPooling layer, with varied kernel sizes. Larger kernel sizes enables the pipeline to focus more on the long-term information than short-term.
+    - Also, this technique reduces the width of the input of MLP, reducing the computational cost.
+- Non-Linear Regression:
+    - After subsampling the input signal, each block applies a non-linear regression to predict forward and backward interpolation coefficients for an MLP. These coefficients are used to synthesize the backcast and forecast outputs of the block.
+- Hierarchical Interpolation:
+    - To address issues related to the increase in compute requirements and model expressiveness as the forecasting horizon (H) grows, N-HiTS introduces a hierarchical interpolation approach.
+    - The dimensionality of the interpolation coefficients is controlled by the expressiveness ratio and aims to limit the number of parameters per unit of output time. Interpolation functions (g) are used to predict all H points in the horizon, allowing for more efficient predictions.
+- Neural Basis Approximation:
+    - N-HiTS leverages a neural basis expansion to approximate the forecast mapping. It uses multi-resolution functions (Vw) to represent the forecast functions, allowing the model to approximate infinite/dense horizons.
+    - The projection of these functions varies smoothly based on the input signal, and the model learns a finite number of multi-resolution coefficients to make accurate forecasts.
+
+---
 #### **2023/10:** Talking about @dataclass and @property.
+@dataclass:
+By using the @dataclass, you do not need to declare the __init__() function in your class, because it does automatically by its own. It can facilitate you to declare the class.
+
+@abstractmethod:
+Once you declare the @abstractmethod to a class, and you inherit the this class to use it to create another class, you will need to declare the function with this method in a mandatory way.
+
+@property:
+It makes usage of getter and setters much easier in Object-Oriented Programming.
 
 ---
 #### **2023/09:** Why do you need a buffer in your time series data.
@@ -81,6 +158,9 @@ The buffer offers that information to make the model be able to use this informa
 
 ---
 #### **2023/09:** Introduction to Programming / Learning coding with Datacamp / Is it effective?
+
+---
+#### **2024/19**
 
 ---
 #### **2023/09:** CoAtNet (2021) - Overview.
