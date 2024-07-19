@@ -108,7 +108,7 @@ Buffer is necessary to be considered when the model utilizes the features and la
 For example, you can use a 180 minutes return as one of the features. However, in the very first rows of this features, the values will be NaN because you do not have a previous 180 min data.
 The buffer offers that information to make the model be able to use this information. Also, the same thing applies to the label. If you are using information such as return with 180 min lookahead data, then you are considering the future data. Which is only possible because you have a final part buffer in the dataset.
 
-
+/*
 ---
 #### **2023/09:** Difference of Supervised and Unsupervised ML models.
 
@@ -170,7 +170,31 @@ The buffer offers that information to make the model be able to use this informa
 #### **2023/09:** Introduction to Programming / Learning coding with Datacamp / Is it effective?
 
 ---
-#### **2024/19**
+#### **2023/09:** Dealing with Computer Vision projects X Financial predictive model.
+
+---
+#### **2023/09:** How to deal with OHLC data in pandas (python).
+
+---
+#### **2023/09:** Forex trade market: The overview.
+
+---
+#### **2023/09:** The importance of using the Raise Exception().
+
+---
+#### **2023/09:** The effects of Sprint and Scrum project management in the teamwork.
+
+---
+#### **2023/09:** How to make a basic predictive model.
+
+---
+#### **2023/09:** The importance of using the Raise Exception().
+
+
+---
+#### **2023/09:** Why do we need to separate the dataset for training, validation, and testing subsets?
+
+*/
 
 ---
 #### **2023/09:** CoAtNet (2021) - Overview.
@@ -199,32 +223,6 @@ Source: https://paperswithcode.com/paper/coatnet-marrying-convolution-and-attent
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34b5dbd5-d93f-42f8-b461-f8e55bc6874a/Untitled.png)
 
 Source: https://github.com/liuzhuang13/DenseNet
-
----
-#### **2023/09:** Dealing with Computer Vision projects X Financial predictive model.
-
----
-#### **2023/09:** How to deal with OHLC data in pandas (python).
-
----
-#### **2023/09:** Forex trade market: The overview.
-
----
-#### **2023/09:** The importance of using the Raise Exception().
-
----
-#### **2023/09:** The effects of Sprint and Scrum project management in the teamwork.
-
----
-#### **2023/09:** How to make a basic predictive model.
-
----
-#### **2023/09:** The importance of using the Raise Exception().
-
-
----
-#### **2023/09:** Why do we need to separate the dataset for training, validation, and testing subsets?
-
 
 ---
 #### **2023/09:** What is Data Leakage in Machine Learning (Time series data) 
