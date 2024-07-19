@@ -108,7 +108,7 @@ Buffer is necessary to be considered when the model utilizes the features and la
 For example, you can use a 180 minutes return as one of the features. However, in the very first rows of this features, the values will be NaN because you do not have a previous 180 min data.
 The buffer offers that information to make the model be able to use this information. Also, the same thing applies to the label. If you are using information such as return with 180 min lookahead data, then you are considering the future data. Which is only possible because you have a final part buffer in the dataset.
 
-/*
+<!--
 ---
 #### **2023/09:** Difference of Supervised and Unsupervised ML models.
 
@@ -194,8 +194,7 @@ The buffer offers that information to make the model be able to use this informa
 ---
 #### **2023/09:** Why do we need to separate the dataset for training, validation, and testing subsets?
 
-*/
-
+-->
 ---
 #### **2023/09:** CoAtNet (2021) - Overview.
 
