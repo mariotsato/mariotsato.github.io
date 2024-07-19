@@ -6,13 +6,13 @@ My current
 ---
 #### **2024/07** Global Average Pooling
 
-<img width="966" alt="image" src="https://github.com/user-attachments/assets/86fe85a6-0897-4b78-aa97-6ef2e9355a86">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/86fe85a6-0897-4b78-aa97-6ef2e9355a86">
 Instead of using the Dense layer in the final layer of the CNN architecture, currently one of the most used techniques is the Global Average Pooling.
 This can be connected directly to the output layer.
-<img width="966" alt="image" src="https://github.com/user-attachments/assets/6a2fb807-9ddb-4180-8f4b-729037fe53ea">
-```
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6a2fb807-9ddb-4180-8f4b-729037fe53ea">
+<pre>
 model.add(GlobalAveragePooling2D())
-```
+</pre>
 
 ---
 #### **2024/07** Vim tutorial
