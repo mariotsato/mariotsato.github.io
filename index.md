@@ -3,6 +3,23 @@ My current
 
 ## Blog: 
 
+
+---
+#### **Cardinality in CNN (ResNeXt)**
+The definition of cardinality is the size of the set of transformations.
+
+<img width="856" alt="image" src="https://github.com/user-attachments/assets/f86a371c-0b5d-4da3-8b4d-33cedddc8b58">
+
+In the illustration above, the architecture on the left represents ResNet, while on the right, you see ResNeXt. Both these networks utilize the split-transform-merge strategy.
+
+This approach initially divides the input into lower dimensions through a 1x1 convolutional layer, then applies transformations using 3x3 convolutional filters, and finally integrates the outputs through a summation operation. 
+
+The key aspect of this strategy is that the transformations are derived from the same structural design, facilitating ease of implementation without necessitating specialized architectural modifications. The primary goal of ResNeXt is to effectively manage large input sizes and enhance network accuracy. 
+
+This is achieved not by adding more layers, but by increasing the cardinality - the number of parallel paths in the network. This approach effectively boosts performance while maintaining a relatively simple complexity compared to deeper networks
+
+Source: https://www.ikomia.ai/blog/resnext-cnn-cardinality-efficiency-explained
+
 ---
 #### **2024/07** Inception v1 module
 The first idea of the Inception model was to apply different kernel sizes to the original pixels to capture different features and learn it.
