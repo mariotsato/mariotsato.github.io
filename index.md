@@ -1,5 +1,5 @@
 My current
-<a href="pdf/SatoMario_CV_2023.pdf">CV</a>
+<a href="pdf/SatoMario_CV_2025.pdf">CV</a>
 
 ## Blog: 
 
